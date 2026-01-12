@@ -21,9 +21,9 @@ import logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-# Configuration
-NOTION_API_KEY = os.environ.get("NOTION_API_KEY", "NOTIONTOKEN")
-NOTION_PARENT_PAGE_ID = os.environ.get("NOTION_PARENT_PAGE_ID", "2e6b88d55b3a81beb1bafb2cced13317")  # Documentation wiki / NOTION - MCP Integration
+# Configuration - load from environment variables
+NOTION_API_KEY = os.environ.get("NOTION_API_KEY")
+NOTION_PARENT_PAGE_ID = os.environ.get("NOTION_PARENT_PAGE_ID")
 WORKSPACE_ROOT = os.environ.get("WORKSPACE_ROOT", os.getcwd())
 
 # Notion API endpoints
