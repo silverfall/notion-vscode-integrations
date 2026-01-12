@@ -1,33 +1,8 @@
 # Project Documentation
 
-Welcome to the documentation hub for this project.
+Add your project documentation here.
 
-## Overview
-
-This project uses an integrated documentation system where all guides and documentation are automatically synced to Notion for easy team access and collaboration.
-
-## Documentation Files
-
-All files in this folder are automatically discovered and synced to your Notion database:
-
-- **README.md** - Project overview and getting started
-- **HOW_TO_*.md** - Step-by-step how-to guides
-- **GUIDE_*.md** - Comprehensive guides and references
-- **STEP_BY_STEP_*.md** - Detailed walkthroughs
-- **SETUP_*.md** - Installation and configuration guides
-
-## Notion Integration
-
-### Quick Start (5 minutes)
-
-1. **Get Notion Credentials**
-   - Go to https://www.notion.so/my-integrations
-   - Create internal integration → copy API key
-   - Create database → copy Database ID
-
-2. **Run Setup**
-   ```bash
-   python notion-mcp/setup_notion_mcp.py
+This folder syncs to Notion automatically.
    ```
 
 3. **Restart VS Code**
